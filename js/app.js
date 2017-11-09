@@ -10,6 +10,8 @@
                 	app.getData();
                     app.filter();
                 });
+
+                return false;
             },
             getData: function(filters){
             	"use strict";
